@@ -1,0 +1,57 @@
+/* RESET Y BODY */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #310e0e !important;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+}
+
+/* NAVBAR */
+.navbar-custom {
+    background: linear-gradient(135deg, #000000 0%, #000000 100%) !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+/* LOGO */
+.logo-custom img {
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+/* TÍTULO */
+.title-custom {
+    color: white !important;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+img {
+    border: 6px solid white;
+}
+.gafas {
+    width: 150px;
+    transition: transform 0.3s ease;
+    border: none;
+}
+
+.gafas:hover {
+    transform: scale(1.1);
+}
+.whatsapp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    padding: 12px;
+    border-radius: 50%;
+    z-index: 9999; /* 🔥 importante */
+}
+.whatsapp-btn svg {
+    width: 30px;
+    height: 30px;
+}
