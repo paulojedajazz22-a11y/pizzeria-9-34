@@ -90,3 +90,22 @@ a:hover {
     color: #ffc107; /* amarillo */
     transform: scale(1.2);
 }
+body {
+    background: url("imagenes/7f8afb6d-c034-4e21-b0c6-99afd67e82d1.png") no-repeat center center;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* OSCURECER SUAVE PARA QUE SE LEA EL TEXTO */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0, 0, 0, 0.3); /* suave */
+
+    z-index: -1;
+}
