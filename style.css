@@ -55,3 +55,38 @@ img {
     width: 30px;
     height: 30px;
 }
+body {
+    background-color: #111;
+    font-family: 'Poppins', sans-serif;
+}
+
+.pizza-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border: 3px solid white;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.pizza-img:hover {
+    transform: scale(1.05);
+}
+a {
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #ffc107; 
+}
+.social-icon {
+    font-size: 40px;
+    color: white;
+    transition: 0.3s;
+}
+
+.social-icon:hover {
+    color: #ffc107; /* amarillo */
+    transform: scale(1.2);
+}
